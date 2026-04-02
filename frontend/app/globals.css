@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-start: #fefae0;
+  --bg-end: #faedcd;
+  --ink: #1d3557;
+  --accent: #d62828;
+  --soft: #f1faee;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 20% 10%, rgba(230, 57, 70, 0.18), transparent 35%),
+    radial-gradient(circle at 80% 90%, rgba(2, 48, 71, 0.15), transparent 38%),
+    linear-gradient(135deg, var(--bg-start), var(--bg-end));
+  min-height: 100vh;
+}
+
+.panel {
+  @apply rounded-2xl border border-white/60 bg-white/70 backdrop-blur-md shadow-xl;
+}
+
+.input {
+  @apply w-full rounded-xl border border-slate-300 bg-white px-4 py-3 outline-none focus:border-petrol;
+}
+
+.btn-primary {
+  @apply rounded-xl bg-coral px-5 py-3 font-semibold text-white transition hover:brightness-95;
+}

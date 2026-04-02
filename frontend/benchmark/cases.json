@@ -1,0 +1,26 @@
+[
+  {
+    "id": "case-1-direct-copy",
+    "source_text": "Semantic plagiarism detection compares sentence meaning and not only exact words. It helps identify paraphrased overlap in academic writing.",
+    "candidate_text": "Semantic plagiarism detection compares sentence meaning rather than exact words and can detect paraphrased overlap in scholarly writing.",
+    "expected_plagiarism": true
+  },
+  {
+    "id": "case-2-unrelated",
+    "source_text": "Neural networks are widely used for image classification tasks in computer vision.",
+    "candidate_text": "Traditional farming methods depend on seasonal weather patterns and soil conservation.",
+    "expected_plagiarism": false
+  },
+  {
+    "id": "case-3-partial",
+    "source_text": "Proper citation is essential for research integrity and transparency.",
+    "candidate_text": "Research integrity depends on transparent methods and accurate citations.",
+    "expected_plagiarism": true
+  },
+  {
+    "id": "case-4-different-domain",
+    "source_text": "Database indexing improves query performance for large transactional datasets.",
+    "candidate_text": "Poetic meter and rhyme influence the emotional tone of a sonnet.",
+    "expected_plagiarism": false
+  }
+]

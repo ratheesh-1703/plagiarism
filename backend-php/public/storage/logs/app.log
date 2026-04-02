@@ -1,0 +1,5 @@
+{"ts":"2026-03-08T05:57:28+00:00","level":"ERROR","message":"Unhandled API error","context":{"request_id":"e987151c43cd323d","path":"/sources","method":"GET","error":"Call to undefined method App\\Controllers\\PlagiarismController::ensureReportColumns()"}}
+{"ts":"2026-03-08T05:57:28+00:00","level":"INFO","message":"Request processed","context":{"request_id":"e987151c43cd323d","path":"/sources","method":"GET","ip":"::1"}}
+{"ts":"2026-03-08T05:57:31+00:00","level":"WARNING","message":"Unauthorized request","context":{"ip":"::1","path":"/upload-document","request_id":"36d9e807f9d0ec38"}}
+{"ts":"2026-03-08T05:57:35+00:00","level":"WARNING","message":"Unauthorized request","context":{"ip":"::1","path":"/upload-document","request_id":"0883f000292ee4d9"}}
+{"ts":"2026-03-08T06:04:46+00:00","level":"WARNING","message":"Unauthorized request","context":{"ip":"::1","path":"/login","request_id":"e1c53fe7ad7e198e"}}

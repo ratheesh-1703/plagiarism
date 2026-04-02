@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Env
+backend/.env
+frontend/.env.local
+
+# Data
+backend/storage/uploads/*
+backend/storage/reports/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/reports/.gitkeep
